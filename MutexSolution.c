@@ -75,7 +75,7 @@
     pthread_mutex_unlock(&lockMakine);
     pthread_mutex_unlock(&lockBirlesim);
     printf("$\n");
-    pthread_mutex_unlock(&lockDolar);
+    pthread_mutex_lock(&lockDolar);
    }
   }
 
